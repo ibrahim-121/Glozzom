@@ -1,0 +1,164 @@
+/********** HOME SECTION START **********/
+/** HEADER SECTION **/
+.navbar{
+  background: #000;
+  color: #fff;
+}
+.nav-item{
+  padding-left: 1em !important;
+}
+/** END HEADER SECTION **/
+/** HOME SECTION **/
+#home-slider .carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('img-1.jpg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('img-2.jpg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('img-2.jpg');
+  background-size: cover;
+}
+/** END HOME SECTION **/
+/** HOME ICON SECTION **/
+#home-icon .fa{
+  font-size: 50px;
+}
+/** END HOME ICON SECTION **/
+/** HOME GET STARTED **/
+#get-started{
+  background: url('bg1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#get-started .dark-overly{
+  background: #000;
+  position: absolute;
+  opacity: .7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/** END HOME GET STARTED **/
+/** HOME VIDEO SECTION **/
+#home-video{
+  background: url('people.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#home-video .dark-overly{
+  background: #000;
+  position: absolute;
+  opacity: .7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#home-video .fa{
+  font-size: 50px;
+  color: red;
+}
+/** END HOME VIDEO SECTION **/
+/** NEWS LETTER **/
+#gallery img{
+  min-height: 250px;
+}
+/** END NEWS LETTER **/
+/** COPY RIGHT **/
+#copyright{
+  background: #000;
+  color: #fff;
+}
+/** END COPY RIGHT **/
+/********** HOME SECTION END **********/
+
+/********** ABOUT US SECTION START **********/
+/** ABOUT US PAGE HEADER-1 **/
+#page-header-1{
+  background: url('img-1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+/** END ABOUT US PAGE HEADER **/
+/* ABOUT WHAT WE DO SECTION-1 */
+#aboutus-2 img{
+  width: 350px;
+  height: 350px;
+}
+/* END ABOUT WHAT WE DO SECTION-1 */
+/** ABOUT US ICON BOXES SECTION **/
+#icon-boxes .fa{
+  font-size: 50px;
+}
+/** END ABOUT US ICON BOXES SECTION **/
+/** ABOUT US TESTIMONIAL SECTION **/
+#testimonial .slick-prev::before{
+  color: #000;
+}
+#testimonial .slick-next::before{
+  color: #000;
+}
+/** END ABOUT US TESTIMONIAL SECTION **/
+/********* ABOUT US SECTION END ****************/
+
+/*********** SERVICES SECTION START ************/
+/** SERVICES PAGE HEADER **/
+#services-page-header-1{
+  background: url('img-3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+/** END SERVICES PAGE HEADER **/
+/************* SERVICES SECTION END ************/
+
+/************ BLOG SECTION START ***************/
+/** BLOG PAGE HEADER **/
+#blog-page-header-1{
+  background: url('img-2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+/** BLOG PAGE HEADER **/
+/************ BLOG SECTION END ***************/
+
+/************ CONTACT SECTION START ***************/
+/** CONTACT PAGE HEADER **/
+#contact-page-header-1{
+  background: url('img-3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+/** CONTACT PAGE HEADER **/
+/************ CONTACT SECTION END ***************/
+
+/** MEDIA WORK **/
+@media (max-width: 767px){
+  #get-started{
+    min-height: 300px;
+  }
+}
+@media (max-width: 480px){
+  .carousel-item h2{
+    font-size: 2.5rem;
+  }
+  #get-started{
+    min-height: 400px;
+  }
+}
